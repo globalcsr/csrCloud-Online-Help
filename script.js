@@ -199,7 +199,7 @@ MIT license
 <div class="faqtoidWindow" id="faqtoid" style="display: none;">\
     <div class="faqtoidHeader">\
         <span class=hideFaqtoid style="float: right; font-weight: bold; font-size: 24px; margin-top: -10px;" title=Close>&times;</span>\
-        <h4 class=faqtoidTitle>Online help</h4><br><p>Field guidance and instructions</p>\
+        <h4 class=faqtoidTitle>Online help</h4>\
     </div>\
     <div class="faqtoidBody">\
         <div id=faqtoidVideos style="display: none; overflow: auto; white-space: nowrap; margin: 0 0 1em 0;"></div>\
@@ -210,7 +210,7 @@ MIT license
         <!--<p><b>Guidance and instructions:</b>-->\
         <ol id=faqtoidMatches><li><span class="spinner"></span> Loading&hellip;</ol>\
         <!--<button id=faqtoidMore>More</button>-->\
-        <button class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;" id=faqtoidShowMailForm>Ask for support</button><!-- "Can\'t Find an Answer?" -->\
+        <button class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;" id=faqtoidShowMailForm>Ask support</button><!-- "Can\'t Find an Answer?" -->\
         <div id=faqtoidSidebar></div>\
         <div id=faqtoidMailForm style="display: none;">\
             <b>Your question:</b>\
@@ -219,7 +219,7 @@ MIT license
             <p class=faqtoidMsg id=faqtoidSuccess style="display: none; font-weight: bold;">Thanks for your message. We shall reply to you as soon as possible and usually within two business days. You might have to check your junk/spam folder for our reply.</p>\
             <table><tr>\
                 <td>Email</td>\
-                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="@authfield:User_Profiles_Email]" id=faqtoidEmail></td>\
+                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="[@authfield:User_Profiles_Email]" id=faqtoidEmail></td>\
             </tr></table>\
             <button type=submit class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;">Send message</button>\
         </div>\
