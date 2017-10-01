@@ -60,9 +60,9 @@
     padding: 2em;
     position: absolute;
     min-width: 400px;
-    min-height: 400px;
+    min-height: 300px;
     max-width: 100vw;
-    max-height: 100vh;
+    max-height: 80vh;
     overflow: auto;
     overflow-x: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
