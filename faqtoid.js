@@ -206,7 +206,7 @@ MIT license
         <iframe id=faqtoidVideoPlayer style="display: none; width: 100%; max-height: 90vh; margin: 0 auto 1em auto; border: 1px solid black;" frameborder="0" allowfullscreen></iframe>\
         <form id=faqtoidForm action="javascript:">\
         <p><b>Search guidance and instructions</b></p>\
-        <input id=faqtoidSearch style="display: block; width: 100%;" name=message title="Search answers to common questions">\
+        <input id=faqtoidSearch style="display: block; width: 100%;" name=message title="Search guidance and instructions">\
         <!--<p><b>Guidance and instructions:</b>-->\
         <ol id=faqtoidMatches><li><span class="spinner"></span> Loading&hellip;</ol>\
         <!--<button id=faqtoidMore>More</button>-->\
