@@ -199,32 +199,32 @@ MIT license
 <div class="faqtoidWindow" id="faqtoid" style="display: none;">\
     <div class="faqtoidHeader">\
         <span class=hideFaqtoid style="float: right; font-weight: bold; font-size: 24px; margin-top: -10px;" title=Close>&times;</span>\
-        <h4 class=faqtoidTitle>Help</h4>\
+        <h4 class=faqtoidTitle>Online help</h4><br><p>Field guidance and instructions</p>\
     </div>\
     <div class="faqtoidBody">\
         <div id=faqtoidVideos style="display: none; overflow: auto; white-space: nowrap; margin: 0 0 1em 0;"></div>\
         <iframe id=faqtoidVideoPlayer style="display: none; width: 100%; max-height: 90vh; margin: 0 auto 1em auto; border: 1px solid black;" frameborder="0" allowfullscreen></iframe>\
         <form id=faqtoidForm action="javascript:">\
-        <p><b>Search Common Questions</b></p>\
+        <p><b>Search guidance and instructions</b></p>\
         <input id=faqtoidSearch style="display: block; width: 100%;" name=message title="Search answers to common questions">\
-        <!--<p><b>Answers to Common Questions</b>-->\
+        <!--<p><b>Guidance and instructions:</b>-->\
         <ol id=faqtoidMatches><li><span class="spinner"></span> Loading&hellip;</ol>\
         <!--<button id=faqtoidMore>More</button>-->\
-        <button class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;" id=faqtoidShowMailForm>Send a Question</button><!-- "Can\'t Find an Answer?" -->\
+        <button class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;" id=faqtoidShowMailForm>Ask for support</button><!-- "Can\'t Find an Answer?" -->\
         <div id=faqtoidSidebar></div>\
         <div id=faqtoidMailForm style="display: none;">\
-            <b>Message</b>\
-            <p style="font-size: small;">If you\'re having a problem, please be specific about what you\'re trying to do and what\'s going wrong.\
-            <textarea style="margin-top: 5px; display: block; width: 100%;" id=faqtoidMessage name=message title="Enter your message here." zplaceholder="Please tell me specifically what you\'re trying to do and what\'s going wrong." rows=5 required></textarea>\
-            <p class=faqtoidMsg id=faqtoidSuccess style="display: none; font-weight: bold;">Thanks for your message. You might have to check your junk/spam folder for my reply.</p>\
+            <b>Your question:</b>\
+            <p style="font-size: small;">If you\'re having issues or questions, please be specific about what you\'re trying to do and what\'s going wrong.\
+            <textarea style="margin-top: 5px; display: block; width: 100%;" id=faqtoidMessage name=message title="Enter your message to ssupport here." zplaceholder="Please tell us specifically what you\'re trying to do and what\'s going wrong." rows=5 required></textarea>\
+            <p class=faqtoidMsg id=faqtoidSuccess style="display: none; font-weight: bold;">Thanks for your message. We shall reply to you as soon as possible and usually within two business days. You might have to check your junk/spam folder for our reply.</p>\
             <table><tr>\
                 <td>Email</td>\
-                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="Please ensure it\'s correct" id=faqtoidEmail></td>\
+                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="@authfield:User_Profiles_Email]" id=faqtoidEmail></td>\
             </tr></table>\
-            <button type=submit class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;">Send</button>\
+            <button type=submit class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;">Send message</button>\
         </div>\
         </form>\
-        <p style="text-align: center; font-size: small; opacity: 0.8; margin: 1em 0 0 0;">Help powered by <a href="http://faqtoid.patrickroberts.ca/" target="_blank">FAQtoid</a></p>\
+        <p style="text-align: center; font-size: small; opacity: 0.8; margin: 1em 0 0 0;">Help and support provided in accordance with the terms of service</p>\
     </div>\
 </div>\
 ')  
