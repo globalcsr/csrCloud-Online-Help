@@ -3,7 +3,7 @@
 Requires a non-empty field named 'message'.
 */
 
-$recipient = 'PUT_YOUR_EMAIL_ADDRESS@HERE.COM'; 
+$recipient = 'support@csrcloud.com'; 
 
 header("Access-Control-Allow-Origin: *"); 
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') { # Access-Control headers are received during OPTIONS requests
