@@ -219,7 +219,7 @@ MIT license
             <p class=faqtoidMsg id=faqtoidSuccess style="display: none; font-weight: bold;">Thanks for your message. We shall reply to you as soon as possible and usually within two business days. You might have to check your junk/spam folder for our reply.</p>\
             <table><tr>\
                 <td>Email</td>\
-                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="[@authfield:User_Profiles_Email]" id=faqtoidEmail></td>\
+                <td style="padding-left: 5px; width: 100%;"><input name=email type=email required title="Enter your e-mail address here" placeholder="Please be sure to provide the accurate address." id=faqtoidEmail></td>\
             </tr></table>\
             <button type=submit class="faqtoidBtn faqtoidBlockBtn" style="margin-bottom: 0;">Send message</button>\
         </div>\
